@@ -1,3 +1,5 @@
+package au.com;
+
 // Request payload for SIM activation
 public class SimActivationRequest {
     private String iccid;
@@ -20,14 +22,4 @@ public class SimActivationRequest {
 }
 
 // Response from the actuator
-public class ActuatorResponse {
-    private boolean success;
 
-    public boolean isSuccess() {
-        return success;
-    }
-
-    public void setSuccess(boolean success) {
-        this.success = success;
-    }
-}
